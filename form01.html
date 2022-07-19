@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="forms01.js" defer></script>
 </head>
 <body>
     <h1>Form 01</h1>
-    
+    <form action="htpp://200.131.178.168/dados.php"
+        method="get"
+        id="form01" 
+        name="exm01">
+    <div>
+        <label for="cor">Cor</label>
+        <input id="cor" name="cor" placeholder="Digite uma cor"/>
+    </div>
+
+    <div>
+        <label for="altura">Altura</label>
+        <input id="altura" name="altura" placeholder="Digite uma altura"/>
+    </div>
+
+    <div>
+        <label for="largura">Largura</label>
+        <input id="largura" name="largura" placeholder="Digite uma largura"/>
+    <div>
+        <input type=submit value="Enviar" />
+        <input type=reset value="Redefinir" />
+    </div>
+
+    </form>
+
 </body>
 </html>
